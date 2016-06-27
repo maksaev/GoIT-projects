@@ -1,9 +1,13 @@
 body{
+	background-color: #e0e0e0;
+}
+
+.plate{
 	width: 600px;
-	padding: 5%;
+	padding: 0 5%;
 	margin:5px auto;
 	background-color: white;
-	border: 1px solid lightgray;
+	box-shadow: 0 0 2px grey;
 }
 
 .endline{
@@ -11,7 +15,11 @@ body{
 	padding: 5px 3%;
 }
 
-h2, h6,
+h2, h6{
+	text-align: center;
+	padding-top: 50px;
+}
+
 .text_under_img{
 	text-align: center;
 }
@@ -25,6 +33,3 @@ img{
 p, footer {
 	padding: 5px 3%;
 }
-
-
-/*img {height: 30%; width: 30%} /*Фотка в оригинале большая*/
